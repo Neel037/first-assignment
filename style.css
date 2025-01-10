@@ -353,3 +353,32 @@ input::placeholder {
 .subscribe p{
     text-align: center;
 }
+
+
+footer{
+    padding: 40px 0;
+    text-align: center;
+}
+footer h3{
+    font-size: 32px;
+}
+
+footer hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(14, 14, 14, 0.10);
+    margin: 20px auto;
+    width: 60%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
