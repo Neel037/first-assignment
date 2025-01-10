@@ -23,6 +23,11 @@
     background-color: #C6E4D6;
 }
 
+.normal-text-color{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+}
+
 
 
 
@@ -44,13 +49,7 @@
     
 }
 
-.btn2{
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 600;
-}
+
 
 
 /* Navbar Style */
@@ -141,11 +140,71 @@ main{
 .pillars-cards-content h3{
     font-size: 20px;
     margin-top: 24px;
+    margin-bottom: 12px;
 }
 
-.pillars-cards-content p{
+
+/* Vision Section Style  */
+
+
+
+.vision-heading{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.vision-description{
     font-size: 16px;
-    margin-top: 12px;
+}
+.vision-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 32px 0;
+}
+.vision-cards-content{
+    padding: 32px;
+    border-radius: 16px;
+}
+.vision-cards-content h3{
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 12px;
 }
 
-  
+.btn2{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+    color: #fff;
+}
+
+.btn2:hover{
+    background-color: #f5f5f5;
+    color: #000;
+    transition: 500ms ease-in-out;
+    border: 1px solid #000;
+    
+}
+
+.blue-btn{
+    background-color: #5490F5;
+}
+
+.green-btn{
+    background-color: #09A15C;
+}
+
+.orange-btn{
+    background-color: #FFC239;
+}
+
+.bg-bluish{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.bg-yelloish{
+    background-color: #F7EBCF;
+}
