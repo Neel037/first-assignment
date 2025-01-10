@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Font Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* Shared Styles */
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.bg-greenish{
+    background-color: #C6E4D6;
+}
+
+
+
+
+.btn1{
+    padding: 15px 30px;
+    border: none;
+    background-color: #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn1:hover{
+    background-color: #f5f5f5;
+    color: #000;
+    transition: 500ms ease-in-out;
+    border: 1px solid #000;
+    
+}
+
+.btn2{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* Navbar Style */
+
+header{
+    background-color: #F1F1F3;
+    padding: 24px 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-nav{
+    padding: 15px 30px;
+    border: 1px solid #000;
+    background-color: transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-nav:hover{
+    background-color: #006A50;
+    color: #fff;
+    transition: 500ms ease-in-out;
+    
+}
+
+nav h2{
+    font-size: 32px;
+}
+
+
+/* Main Style */
+
+main{
+    background-color: #F1F1F3;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 115px 60px 80px 60px;
+    border-radius: 24px;
+
+}
+
+.hero-content{
+    align-content: center;
+}
+
+.hero-content p{
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+}
+
+.hero-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+
+
+  
