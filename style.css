@@ -95,6 +95,7 @@ nav h2{
 
 main{
     background-color: #F1F1F3;
+    padding: 40px 0;
 }
 
 .hero{
@@ -233,7 +234,7 @@ main{
 /* News Sewction Style */
 
 .news{
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .news-card{
@@ -267,4 +268,88 @@ main{
 
 .news-card-reverse{
     flex-direction: row-reverse;
+}
+
+/* Donate Section Style  */
+
+.donate{
+    padding: 40px 0;
+    text-align: center;
+}
+.donate p{
+    margin: 0 115px;
+}
+.donate-cards{
+    display: flex;
+    gap: 24px;
+    margin: 32px 0;
+    justify-content: center;
+
+    
+}
+
+.donate-cards-content{
+    padding: 32px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.donate-cards-content:hover{
+    background-color: #C6E4D6;
+    color: white;
+}
+
+.donate-cards-content h2{
+    font-size: 40px;
+}
+
+.donate-text{
+    width: 880px;
+    padding: 20px 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+input::placeholder {
+    opacity: 30%;
+  }
+
+/* Subs Style */
+
+.subscribe{
+    padding: 40px 0;
+    padding: 80px 100px;
+    border-radius: 24px;
+    margin: 40px 0;
+
+}
+
+.subscribe-content{
+    text-align: center;
+
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
+    
+}
+.form-container input {
+    width: 600px;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    color: #666;
+}
+
+.sub-btn{
+    border-radius: 0 5px 5px 0;
+}
+
+.subscribe p{
+    text-align: center;
 }
